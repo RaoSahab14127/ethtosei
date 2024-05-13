@@ -1,0 +1,11 @@
+
+[package]
+name = "ethtosei"
+version = "0.1.0"
+edition = "2021"
+
+INFURA_API_KEY= "96d3ce009f844c15ae18ea86722aa2b9"
+
+[dependencies]
+ethers = "2.0"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
